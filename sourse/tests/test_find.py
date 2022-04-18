@@ -18,8 +18,6 @@ def test_find(driver):
     main_page.enter_find_text_in_line('Iphone')
     main_page.click_find_button()
 
-    # fixme добавил строку ниже для наглядности, что все выполняется. Когда тест пойдет дальше и будет нормальная
-    #  проверка - надо будет убрать
     time.sleep(10)
 
     # todo тут можно добавить какую-нибудь проверку
