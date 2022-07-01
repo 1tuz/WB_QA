@@ -2,7 +2,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 
-from source.web_driver import WebDriver
+from sourse.web_driver import WebDriver
 
 
 class BasePageLocators:

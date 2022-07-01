@@ -1,7 +1,7 @@
 import pytest
 
-from source import settings
-from source.web_driver import WebDriver
+from sourse import settings
+from sourse.web_driver import WebDriver
 
 @pytest.fixture(scope='session')
 def driver():
